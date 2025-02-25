@@ -1,0 +1,48 @@
+{
+    "name": "nuxt-app",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "@radix-icons/vue": "^1.0.0",
+        "@vee-validate/zod": "^4.15.0",
+        "@vueuse/core": "^12.7.0",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "lucide-vue-next": "^0.475.0",
+        "nuxt": "^3.15.4",
+        "nuxt-lucide-icons": "^1.0.5",
+        "reka-ui": "^2.0.0",
+        "shadcn-nuxt": "^1.0.1",
+        "tailwind-merge": "^3.0.2",
+        "tailwindcss-animate": "^1.0.7",
+        "vee-validate": "^4.15.0",
+        "vue": "latest",
+        "vue-router": "latest",
+        "zod": "^3.24.2"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^4.1.1",
+        "@commitlint/cli": "^19.7.1",
+        "@commitlint/config-conventional": "^19.7.1",
+        "@nuxt/eslint": "^1.0.0",
+        "@nuxtjs/supabase": "^1.4.6",
+        "@nuxtjs/tailwindcss": "^6.13.1",
+        "eslint": "^9.19.0",
+        "eslint-plugin-format": "^1.0.1",
+        "eslint-plugin-vue": "^9.32.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.4.3",
+        "sass": "^1.85.0",
+        "typescript": "^5.7.3"
+    }
+}
